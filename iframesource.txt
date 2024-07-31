@@ -1,0 +1,28 @@
+this is the source code of main html file of iframe
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h3>Here I am using the iframe tag</h3>
+    <iframe src="foriframe.html" frameborder="2" height="600" width="600"></iframe>
+</body>
+</html>
+
+this is the code of iframe
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>for Iframe</title>
+</head>
+<body>
+    <h1>this is what I made using iframe in html</h1>
+    <img src="foriframe.jpg" alt="lion image">
+</body>
+</html>
