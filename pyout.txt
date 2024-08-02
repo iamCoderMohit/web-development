@@ -1,0 +1,12 @@
+hello world
+3
+<class 'int'>
+Enter your name mohit
+Enter the value of f 5
+Enter the value of g 6.67
+Enter the value of h 8
+Enter the value of i 5
+13
+Enter your first name mohit
+Enter last name joshi
+ mohit  joshi
