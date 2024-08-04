@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Device Verification</title>
+    <style>
+        .desktop-only {
+            display: none;
+        }
+        .mobile-message {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <div class="desktop-only">
+        <!-- Your desktop-only content goes here -->
+        <h1>Welcome to the Desktop Version of the Site!</h1>
+        <a href="index.html">Clone of netflix</a>
+
+    </div>
+    <div class="mobile-message">
+        <!-- Custom message for mobile users -->
+        <h1>This content is only available on desktop devices.</h1>
+    </div>
+
+    <script>
+        function isMobileDevice() {
+            return /Mobi|Android/i.test(navigator.userAgent);
+        }
+
+        if (isMobileDevice()) {
+            document.querySelector('.desktop-only').style.display = 'none'; // Hide desktop content
+            document.querySelector('.mobile-message').style.display = 'block'; // Show mobile message
+            alert('This content is only available on desktop devices.'); // Optional alert
+        } else {
+            document.querySelector('.desktop-only').style.display = 'block'; // Show desktop content
+        }
+    </script>
+</body>
+</html>
